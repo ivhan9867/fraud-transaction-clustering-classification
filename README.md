@@ -1,15 +1,15 @@
-# Financial Transaction Fraud Analysis — Clustering & Classification
+# Financial Transaction Fraud Analysis Clustering & Classification
 
 Capstone project untuk kelas **[Belajar Machine Learning untuk Pemula](https://www.dicoding.com/)** di Dicoding.
 Membangun end-to-end machine learning pipeline pada dataset transaksi keuangan untuk mengelompokkan pola transaksi (clustering) dan memprediksi kelompok tersebut (classification).
 
 ## 📌 Latar Belakang
 
-Dataset ini berisi **2.512 transaksi keuangan** dengan atribut seperti nominal, lokasi, metode pembayaran, jenis transaksi, dan waktu transaksi — cocok untuk eksplorasi deteksi anomali/fraud pada aktivitas keuangan.
+Dataset ini berisi **2.512 transaksi keuangan** dengan atribut seperti nominal, lokasi, metode pembayaran, jenis transaksi, dan waktu transaksi   cocok untuk eksplorasi deteksi anomali/fraud pada aktivitas keuangan.
 
 Karena dataset tidak berlabel, project ini dibagi menjadi dua tahap:
-1. **Clustering** — mengelompokkan transaksi ke dalam segmen/pola tertentu tanpa label (unsupervised).
-2. **Classification** — menggunakan hasil clustering sebagai label (`Target`), lalu melatih model supervised untuk memprediksi segmen tersebut pada data baru.
+1. **Clustering**   mengelompokkan transaksi ke dalam segmen/pola tertentu tanpa label (unsupervised).
+2. **Classification**   menggunakan hasil clustering sebagai label (`Target`), lalu melatih model supervised untuk memprediksi segmen tersebut pada data baru.
 
 ## 🛠️ Tech Stack
 
@@ -19,7 +19,7 @@ Karena dataset tidak berlabel, project ini dibagi menjadi dua tahap:
 - matplotlib, seaborn
 - joblib (model persistence)
 
-## 🔍 Tahap 1 — Clustering
+## 🔍 Tahap 1   Clustering
 
 Notebook: [`notebooks/1_clustering.ipynb`](notebooks/1_clustering.ipynb)
 
@@ -31,7 +31,7 @@ Notebook: [`notebooks/1_clustering.ipynb`](notebooks/1_clustering.ipynb)
 - Interpretasi tiap cluster berdasarkan karakteristik rata-rata/min/max fitur, hasil di-*inverse transform* kembali ke skala aslinya untuk dianalisis
 - Output: `data/data_clustering_inverse.csv` (data asli + kolom `Target` hasil clustering)
 
-## 🌳 Tahap 2 — Classification
+## 🌳 Tahap 2   Classification
 
 Notebook: [`notebooks/2_classification.ipynb`](notebooks/2_classification.ipynb)
 
@@ -70,4 +70,4 @@ Jalankan notebook clustering terlebih dahulu untuk menghasilkan `data_clustering
 
 ## 👤 Author
 
-**Ivhan Afika Prila** — capstone project ini dikerjakan sebagai submission akhir kelas Dicoding "Belajar Machine Learning untuk Pemula".
+**Ivhan Afika Prila**   capstone project ini dikerjakan sebagai submission akhir kelas Dicoding "Belajar Machine Learning untuk Pemula".
